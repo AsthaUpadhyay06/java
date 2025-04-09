@@ -37,10 +37,10 @@ public class code18 {
                  System.out.println("nine");
                  break;
                  default:
-                 System.out.println("invalid");
+                 System.out.println("invalid input");
                  break;
            }
-     
+     var1.close();
         }
      }
      
