@@ -17,7 +17,7 @@ public int sum(int a,int b){
 }
 public static void main(String[] args) {
     static1 obj=new static1();
-     int res=obj.sum(2,4);
+     int res=obj.sum(2,7);
      System.out.println(res);
 }
 }
