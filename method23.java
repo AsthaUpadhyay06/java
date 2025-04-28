@@ -8,8 +8,8 @@ public class method23 {
 
     public static void main(String[] args) {
         method23 obj =new method23();
-        obj.firstmethof();
-        obj.twomethods();
+        obj.firstmethof();// object
+        obj.twomethods();// call 
         
     }
 }
