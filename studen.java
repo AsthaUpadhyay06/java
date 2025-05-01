@@ -18,12 +18,22 @@ class student {
 // }
 
 
-String s= "fdrefrfa";
+String s= "astha";
 int a=19;
+student(){
+    System.out.println("hello");
+}
+student(String s){
+    this();
+    System.out.println(s);
+
+}
+
 student(String s,int a){
+    this(s);
  this.s=s;
  this.a=a;
- System.out.println(s+""+a);
+ System.out.println(s+" "+a);
 }
 }
 class studen{
