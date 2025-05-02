@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 class animal{
     void eat(){
         System.out.println("eatinggg");
@@ -17,11 +11,21 @@ class dog extends animal{
 
 }
 }
+class puppy extends dog{
+  void cutie(){
+    System.out.println("cutenesss");
+  }
+}
  public class inheritance{
 
     public static void main(String[] args) {
-        dog obj=new dog();
+        puppy obj=new puppy();
         obj.bark();
+        obj.eat();
+        obj.cutie();
+       
+        
+
     }
    }
 
