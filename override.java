@@ -1,11 +1,13 @@
 class main{
     void data(){
         System.out.println("main classs haii");
+        
     }
 }
 class hello extends main{
     void data(){
         System.out.println("hello class hai");
+       super.data();
     }
 }
 
