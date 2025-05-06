@@ -7,8 +7,9 @@ public class java1{
         
         int k=2;
         k=k%n;
-        
+
         int i;
+        
         for( i=n-k;i<n;i++){
             ans[j++]=arr[i];
         }
