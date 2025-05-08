@@ -1,4 +1,0 @@
-p
-public class main {
-    
-}

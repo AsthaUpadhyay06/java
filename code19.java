@@ -7,6 +7,6 @@ public class code19{
         for (int i=0;i<n;i++){
             System.out.println(i);
         }
-     
+     sc.close();
     }
 }

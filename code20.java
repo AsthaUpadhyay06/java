@@ -9,6 +9,7 @@ public class code20 {
             System.out.println(a);
             a++;
         }
+        sc.close();
     }
     
     
