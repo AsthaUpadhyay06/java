@@ -9,6 +9,6 @@ public class code21 {
         }
         
     
-        
+    sc.close();    
     }
 }

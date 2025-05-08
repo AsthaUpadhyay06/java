@@ -1,5 +1,6 @@
 
 class person{
+    String name;
     void displaydetails( String name,int age){
         this.name=name;
         

@@ -15,5 +15,6 @@ public class posnegzero {
         else{
             System.out.println("number is zero");
         }
+        sc.close();
     }
 }

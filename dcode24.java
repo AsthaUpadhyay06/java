@@ -11,7 +11,7 @@
         else{
             System.out.println("not ");
         }
-        
+      sc.close();  
     }
 
 }

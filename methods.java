@@ -14,7 +14,7 @@ public static void main(String[] args) {
     }
 
     primenum(x);
-
+sc.close();
 }
 
   static void primenum(int x){

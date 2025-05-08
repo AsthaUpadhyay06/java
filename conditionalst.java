@@ -30,5 +30,6 @@ public class conditionalst {
                 System.out.println(division);
                 break;
         }
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-import javax.print.DocFlavor.STRING;
+
 
 public class astha {
 //     static void naturalnum(int n){
