@@ -1,3 +1,4 @@
+package patterns;
 public class patterns7 {
     public static void main(String[] args) {
         for (char i='A';i<='E';i++){

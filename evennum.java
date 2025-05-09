@@ -8,12 +8,22 @@ public class evennum {
                    
            }
            }
+           void print(){
+
+           }
        
            
                
            public static void main(String[] args){
+<<<<<<< HEAD
               // int n=20;
               // evennum(n);
+=======
+              
+               evennum obj = new evennum(34);
+               obj.print();;
+               
+>>>>>>> 97206e0ae6cae4032fe571871ba1ca2ab552d831
            }
            }
           

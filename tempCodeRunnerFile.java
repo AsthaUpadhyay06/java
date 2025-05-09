@@ -17,7 +17,11 @@ class Netbanking extends payment{
     }
 }
 
+<<<<<<< HEAD
 class abstractclass {
+=======
+ class abstractclass {
+>>>>>>> 97206e0ae6cae4032fe571871ba1ca2ab552d831
     public static void main(String[] args) {
         
         payment obj=new UpiPayment();

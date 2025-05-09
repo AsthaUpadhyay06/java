@@ -9,6 +9,10 @@ public class code21 {
         }
         
     
+<<<<<<< HEAD
     sc.close();    
+=======
+        sc.close();   
+>>>>>>> 97206e0ae6cae4032fe571871ba1ca2ab552d831
     }
 }
