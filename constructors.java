@@ -3,7 +3,7 @@ class algebra{
     int b;
     algebra(int x,int y){
         System.out.println("constructor atomatically called");
-        a=x;
+        a=x;                
         b=y;
     }
     int  add(){
