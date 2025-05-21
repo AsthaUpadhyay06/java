@@ -1,19 +1,29 @@
- class A{
-    void sum(){
-    System.out.println("iam A");}
+ interface A{
+    void sum();
+    void print();
  }
- class B{
-    void sum(){
-        System.out.println("iam B");
+ interface B {
+    void show();
+ }
+class C implements A,B{
+   public void sum(){
+    System.out.println("a+b");
+
     }
- }
-class C{
-    void s
+   public void print(){
+    System.out.println("iam print function");
+
+    }
+    public void show(){
+        System.out.println("iam a show function");
+    }
 }
- class multipleinheritance extends A,B {
+ class multipleinheritance {
     public static void main(String[] args) {
-        multipleinheritance obj=new multipleinheritance();
+        C obj=new C();
         obj.sum();
+        obj.print();
+        obj.show();
         
     }
     }
