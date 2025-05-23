@@ -7,6 +7,7 @@ public class secondlargest {
         for(int i=0;i<arr.length;i++){
             if(largest<arr[i]){
                 secondlargest=largest;
+                largest=arr[i];
             }
             else if(arr[i]>secondlargest && arr[i]!=largest){
         
