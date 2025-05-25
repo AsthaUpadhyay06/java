@@ -6,11 +6,11 @@ public class patternwhile7 {
             int j=1;
             while(j<=i){
                 System.out.print(i);
-                j++;
+                j=j+1;
 
             }
             System.out.println();
-            i++;
+            i=i+1;
         }
     }
 }

@@ -3,14 +3,13 @@ public class patternwhile9 {
 
  public static void main(String[] args) {
         int i=1;
-        int n=4;
+        int n=5;
       
         while(i<=n){
-            int j=1;
-            int value=i;
-            while(j<=i){
-                System.out.print( value + " ");
-                value++;
+            int j=i;
+           
+            while(j<2*i){
+                System.out.print( j + " ");
                 j++;
 
 
