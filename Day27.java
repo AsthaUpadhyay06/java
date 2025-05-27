@@ -24,11 +24,17 @@
 
 public class Day27 {
     public static void main(String[] args) {
-        HashSet<Integer>set=new HashSet();
-        set.add(5);
-        set.add(5);
-        set.add(6);
-        System.out.println(set);
+       // HashSet<Integer>set=new HashSet();
+       int [] arr={1,2,3,4,5,5,6,7};
+       HashSet<Integer> set=new HashSet<>();
+        for(int i=0;i<arr.length;i++){
+            set.add(arr[i]);
+
+        }
+        // set.add(5);
+        // set.add(5);
+        // set.add(6);
+       System.out.println(set);
 
             
         }
