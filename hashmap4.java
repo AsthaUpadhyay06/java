@@ -1,8 +1,9 @@
 import java.util.HashMap;
 
-public class hashmap3 {
+public class hashmap4 {
     public static void main(String[] args) {
-         String str="  Java is programming and programming is Java ";
+       
+        String str="  Java is programming and programming is Java ";
          
             String[] newstr=str.split(" ");
             
@@ -12,6 +13,8 @@ public class hashmap3 {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
 
-        System.out.println(map);
+        System.out.println( map );
+
+        }
     }
-}
+
