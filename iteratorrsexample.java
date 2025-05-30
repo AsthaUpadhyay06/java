@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class iteratorrs {
+public class iteratorrsexample {
     public static void main(String[] args) {
         ArrayList<String>names=new ArrayList<>();
         names.add("Astha");

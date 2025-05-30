@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 import java.util.ListIterator; 
- public class iteratorrsss{
+ public class listIteratorss{
 public static void main(String[] args) {
     
        ArrayList<String>names=new ArrayList<>();
@@ -12,14 +12,22 @@ public static void main(String[] args) {
             ListIterator<String>it=names.listIterator();
             while(it.hasNext()){
                String elem=it.next();
-                System.out.println(elem);
+               if(elem.length()<=4){
+                it.set("byee");
             }
-            System.out.println("pree");
+        }
+        System.out.println(names);
+            int count=0;
             while (it.hasPrevious()) {
-                String lastvalue=it.previous();
-                System.out.println(lastvalue);
+                String ele=it.previous();
+                count++;
+
+
+               if(count!=names.size()){
+                it.set("hello");
+               }
                 
             }
             
         }
-    }
+    } 
