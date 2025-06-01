@@ -13,9 +13,6 @@ public class swapalternate {
         for(int num: arr){
             System.out.print( " " + num);
         }
-
-
-        
         
     }
 }
