@@ -25,7 +25,7 @@ class arraylist8 {
 
         students.add(new Student("aayana",87));
 
-    students.sort((a,b)-> a.marks-b.marks);
+    students.sort((a,b)-> a.name,b.name);
        for(Student s: students){
         System.out.println(s);
        }
