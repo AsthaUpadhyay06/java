@@ -19,6 +19,7 @@ public class multithreding2 {
         FileDownload obj=new FileDownload();
         obj.download("A");
         obj.download("B");
+       
         
     }
 }
