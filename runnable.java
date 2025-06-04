@@ -9,6 +9,13 @@ public class runnable {
         MyRynnable obj=new MyRynnable();
         Thread t1=new Thread(obj);
         t1.start();
+        try {
+            t1.join();
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
+        System.out.println("main thread is running");
 
         
     }
