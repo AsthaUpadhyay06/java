@@ -6,20 +6,21 @@ this.amount=amount;
  }
  public void run(){
     if(TotalBalance>=amount){
-        System.out.println("withdraw successfull");
+        System.out.println("withdraw successfull " + amount );
+        
     
     try {
-            Thread .sleep(2000);
+         
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
         }
         TotalBalance=TotalBalance-amount;
-        System.out.println(TotalBalance);
+        System.out.println(" remaining balance "+ TotalBalance );
         
     }
     else{
-        System.out.println("insufficient balance");
+        System.out.println("insufficient balance" );
     }
  }
 
@@ -30,6 +31,11 @@ public class runnable2 {
         WithdrawThread t1=new WithdrawThread(800);
         WithdrawThread t2=new WithdrawThread(500);
         t1.start();
+        try {
+            t1.join();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
         t2.start();      
     }
     }
