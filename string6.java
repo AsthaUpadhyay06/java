@@ -13,7 +13,7 @@ for(int i=0;i<arr.length;i++){
 
 }
 System.out.println(sum);
-<<<<<<< HEAD
+
 for(int i=0;i<arr.length;i++){
     for(int j=0;j<arr.length;j++){
         if(arr[i]==arr[j]){
@@ -22,8 +22,8 @@ for(int i=0;i<arr.length;i++){
     }
 
 }
-    }
-=======
+    
+
     
 
 for(int i=0;i<arr.length;i++){
@@ -32,7 +32,6 @@ for(int i=0;i<arr.length;i++){
         
         }
     }
-    
 }
->>>>>>> 97206e0ae6cae4032fe571871ba1ca2ab552d831
 }
+

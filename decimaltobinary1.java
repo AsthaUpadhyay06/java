@@ -23,4 +23,6 @@ int bits=n&1;
              i++;
 }
 System.out.println(n);
+    }
+  }
 

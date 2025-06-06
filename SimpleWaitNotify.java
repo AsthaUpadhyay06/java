@@ -12,8 +12,8 @@ public class SimpleWaitNotify {
         while (!isSignalled) {
             try {
                 System.out.println("Consumer: Waiting for signal...");
-                wait();
-            } catch (InterruptedException e) {
+               wait();
+            } catch (Exception e) {
 
             }
         }

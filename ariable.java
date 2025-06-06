@@ -1,4 +1,4 @@
-public class variable {
+public class ariable {
 
 //    static  int a=5;
 
