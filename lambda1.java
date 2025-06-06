@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class lambda1{
    public static void main(String[] args) {
@@ -11,8 +12,19 @@ public class lambda1{
     list.add("rajneesh");
     list.add("jiya");
     list.add("raunak");
-    Collections.sort(list,(a,b)-> a.compareTo(b));
+    Collections.sort(list,new Comparator<String>() {
+      public int compare(String a,String b){
+         return a.compareTo(b);
+         
+      }
+      
+    });
     System.out.println(list);
+    
+
+
+   //  Collections.sort(list,(a,b)-> a.compareTo(b));
+   //  System.out.println(list);
     
    }
 
