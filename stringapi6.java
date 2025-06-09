@@ -8,7 +8,7 @@ public class stringapi6 {
         
         int odd = numbers.stream()
                                           . filter(n -> n % 2 == 1)  // Filter even numbers
-                                           .reduce(0,Integitger::sum ) ;         // Square them
+                                           .reduce(0,Integer::sum ) ;         // Square them
                                            //.collect(Collectors.toList()); // Collect into a list
         
         System.out.println(odd);
