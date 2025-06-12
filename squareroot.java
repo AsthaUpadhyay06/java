@@ -10,7 +10,7 @@ public static int squarerootproblem(int n){
             if(square==n){
                 return m;
             }
-            else if(m<n){
+            else if(square<n){
                 ans=m;
                 s=m+1;
             }
