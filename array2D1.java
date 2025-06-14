@@ -5,7 +5,7 @@ public class array2D1 {
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("enter arrry elements");
-    int[][] myNumbers = new int[4][4];
+    int[][] myNumbers = new int[3][5];
    //int x=sc.nextInt();
    for(int i=0;i<myNumbers.length;i++){
     for(int j=0;j<myNumbers[i].length;j++){
