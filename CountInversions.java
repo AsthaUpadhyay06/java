@@ -1,4 +1,4 @@
-public public class CountInversions {
+ public class CountInversions {
     public static int countInversions(int[] arr) {
         return mergeSort(arr, 0, arr.length - 1);
     }
