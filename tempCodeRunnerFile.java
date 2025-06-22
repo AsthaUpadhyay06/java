@@ -1,1 +1,1 @@
-LongestConsecutiveSequence
+CountZeros
