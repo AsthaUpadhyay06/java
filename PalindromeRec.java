@@ -9,4 +9,4 @@
         String s = "madam";
         System.out.println(isPalindrome(s, 0, s.length() - 1) ? "Palindrome" : "Not Palindrome");
     }
-} 
+} dvd
