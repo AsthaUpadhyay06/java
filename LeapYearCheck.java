@@ -1,4 +1,4 @@
- public class LeapYearCheck {
+public class LeapYearCheck {
     public static void main(String[] args) {
         int year = 2024;
 
@@ -6,4 +6,4 @@
 
         System.out.println(isLeap ? "Leap Year" : "Not Leap Year");
     }
-}
+} 
