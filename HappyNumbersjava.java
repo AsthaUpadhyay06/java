@@ -1,4 +1,4 @@
-public class HappyNumbers {
+ public class HappyNumbersjava {
     static boolean isHappy(int n) {
         while (n != 1 && n != 4) {
             int sum = 0;
@@ -18,4 +18,4 @@ public class HappyNumbers {
             if (isHappy(i)) sum += i;
         System.out.println("Sum of Happy Numbers <= 100: " + sum);
     }
-}d
+} 
