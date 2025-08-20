@@ -1,4 +1,4 @@
- public class ASCIIPrinter {
+ public class ASCIIPrinter1 {
     public static void main(String[] args) {
         String text = "Astha";
 
