@@ -1,4 +1,4 @@
- public class UniqueElementXOR {
+ public class UniqueElementXORjava {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 2, 1}; // Example array
         int unique = 0;
